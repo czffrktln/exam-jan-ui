@@ -1,3 +1,140 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
-  background-color: aqua;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff257;
+}
+
+#navbar {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #33793f;
+  color: #fff257;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 0px 10px;
+  letter-spacing: 2px;
+  
+}
+
+#full-page {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  
+}
+
+#wrapper {
+  /* border: 1px solid green; */
+  max-width: 1280px;
+  padding-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px 20px;
+  justify-content: center;
+}
+
+#kormenu {
+  background-color:#fff257;
+  color: #33793f;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.card {
+  width: 350px;
+  /* height: 350px; */
+  color: #33793f;
+}
+
+.number {
+  background-color: #33793f;
+  color: #fff257;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  
+  padding: 10px;
+}
+
+.cardtop {
+  position: relative;
+  border: 1px solid #33793f;
+  height: 90%;
+  padding: 20px 20px 60px;
+}
+
+.top {
+  /* height: 50%; */
+  /* border: 1px solid purple; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.subtext {
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  /* border: 1px solid yellowgreen; */
+}
+.title {
+  /* border: 1px solid orange; */
+  font-size: 36px;
+  font-weight: bold;
+  padding: 15px 0px;
+}
+
+.center {
+  /* height: 50%; */
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10px 0px;
+}
+
+.cardbottom {
+  height: 10%;
+}
+
+.bottom {
+  /* height: 100%; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  padding: 10px 10px;
+}
+
+.bottom:hover {
+  background: #33793f;
+  color: #fff257;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
 }
